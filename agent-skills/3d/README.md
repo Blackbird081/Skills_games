@@ -1,6 +1,6 @@
 # 3D Rendering Skills
 
-Nine reusable skills for atmospheric, detailed 3D scenes, open water and interactive walkthroughs. Most of the techniques draw on [Seijaku](https://mengto.github.io/seijaku/); the water comes from Pirate Ship Sunset. Each includes implementation guidance, performance considerations and verification steps.
+Fifteen reusable skills for atmospheric, detailed 3D scenes, open water and interactive walkthroughs. Most of the techniques draw on [Seijaku](https://mengto.github.io/seijaku/); the water comes from Pirate Ship Sunset. Each includes implementation guidance, performance considerations and verification steps.
 
 | Skill | Use it for |
 | --- | --- |
@@ -12,6 +12,12 @@ Nine reusable skills for atmospheric, detailed 3D scenes, open water and interac
 | [3D Four Seasons](3d-four-seasons/SKILL.md) | Coordinated spring, summer, fall, and winter materials, foliage, lighting, and particles. |
 | [3D High-Resolution Textures](3d-high-resolution-textures/SKILL.md) | Sharp PBR materials with appropriate UVs, filtering, and progressive loading. |
 | [3D High-Poly Models](3d-high-poly-models/SKILL.md) | Detailed silhouettes and geometry with practical runtime levels of detail. |
+| [3D Wood Material](3d-wood-material/SKILL.md) | Procedural wood with growth-ring grain, pores, oil and wax finishes, tool marks and end grain that survive macro close-ups. |
+| [3D Cloth Material](3d-cloth-material/SKILL.md) | Woven cloth with thread structure, sheen, folds that don't stretch the weave, stitched hems and frayed edges. |
+| [3D Paper Material](3d-paper-material/SKILL.md) | Washi, rag and kraft paper with fibres, deckled edges, back-lit translucency, curl and creases. |
+| [3D Metal Material](3d-metal-material/SKILL.md) | Physically based steel, brass, gold and copper with structured reflections, brushed streaks, scratches and patina. |
+| [3D Orbit and Inspect Demo](3d-orbit-inspect-demo/SKILL.md) | A 3D object that leans on hover and lifts to a full inspect view on click, with drag, zoom and a clean return. |
+| [3D Wood Lighting Scorecard](3d-wood-lighting-scorecard/SKILL.md) | Warm key light, volumetric shafts and dust, plus a runnable scorecard that rates the render out of 10 against an anchored rubric. |
 | [3D Retina Resolution](3d-retina-resolution/SKILL.md) | Fixed 200% rendering, synchronized render buffers, and correct HiDPI sizing. |
 
 ## Use a skill
