@@ -93,6 +93,13 @@ agent-skills/
       SKILL.md
     daily-ui-inspiration-capture/
       SKILL.md
+  game-combat/
+    README.md
+    game-dev-combat-animation/
+      SKILL.md
+      references/
+      scripts/
+      templates/
   game-development/
     README.md
     build-isometric-arpg/
