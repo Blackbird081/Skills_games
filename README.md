@@ -100,6 +100,11 @@ agent-skills/
       references/
       scripts/
       templates/
+    game-dev-combat-skill-polish/
+      SKILL.md
+      references/
+      scripts/
+      templates/
   game-development/
     README.md
     build-isometric-arpg/
@@ -203,7 +208,7 @@ Conventions:
 
 ## Current library
 
-This snapshot contains **146 skills** across seven categories.
+This snapshot contains **157 skills** across eight categories.
 
 Use `find agent-skills -name SKILL.md | sort` for the source of truth.
 
@@ -245,6 +250,12 @@ Design-first UI prompting system:
 Files:
 - `agent-skills/ui/design-first-ui-prompting/SKILL.md`
 - `agent-skills/ui/design-first-ui-prompting/ARTICLE.md`
+
+### Game combat (2)
+
+Combat animation and combat skills that read and look like Diablo IV, measured and judged blind. See the [game-combat guide](agent-skills/game-combat/README.md).
+- `game-dev-combat-animation` - build, fix and review attacks and move sets to numbered arm, wrist and hand rules, with per-frame tests on the real mesh and blind critics.
+- `game-dev-combat-skill-polish` - score combat skills out of 10 with two blind judges and raise the weakest to a bar, for readability or for art against a reference such as Diablo IV, with stepped-clock filming, contact strips and judging scripts.
 
 ### Game development (20)
 
